@@ -1,0 +1,63 @@
+.options{
+    font-style: normal;
+    margin-right: 1%;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-bottom: 2px solid white;
+    color: gray;
+}
+
+#one_job{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+.options:hover , #related{
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.options:active{
+    color: black;
+}
+
+#job_img{
+    background: url('https://images.pexels.com/photos/3779853/pexels-photo-3779853.png?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#applyicon{
+    text-decoration: none;
+    cursor: pointer;
+    height: 10%;
+    font-size: larger;
+    margin-top: 0%;
+    background:rgb(8, 100, 206);
+    border-radius: 25px;
+    color: #e9f9fb;
+    font-weight: bold;
+    width: 10%;
+    padding: 0.7%;
+}
+
+#applyicon:hover{
+    background:rgb(5, 86, 179);
+
+}
+
+#all_related{
+    width: 100%;
+    text-align: center;
+}
+
+#jobs_word{
+    margin-top: 3%;
+}
+
+#create_job{
+    float: right;
+    margin-top: 1%;
+    width: auto;
+}

@@ -1,0 +1,157 @@
+#left,#right{
+    width: 25%;
+    position: fixed;
+}
+
+#middle{
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: auto;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#big_img{
+    height: 600px;
+    width: 100%;
+    background: url('https://img.freepik.com/free-vector/we-are-hiring-announcement-template-design_60438-1695.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner_block{
+    height: auto;
+    display: flex;
+    padding: 1%;
+    margin: 0%;
+}
+
+.big_block{
+    border: 3px solid rgb(246, 246, 246);
+    padding: 2%;
+    background-color: white;
+    margin-top: 1%;
+    cursor: pointer;
+}
+
+#home_block_img{
+    background: url('https://images.pexels.com/photos/10040216/pexels-photo-10040216.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#left{
+    height: auto;
+    margin: auto;
+    padding: 1%;
+}
+
+#right{
+    top: 8%;
+    display: flex;
+    height: auto;
+    margin-left: 75%;
+}
+
+#sub_right_1{
+    width: 25%;
+}
+
+#sub_right_1{
+    width: 75%;
+}
+
+.fonts_divs{
+    display: block;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    background-color: rgb(6, 151, 199);
+    margin: 20px;
+    cursor: pointer;
+    border: 2px solid rgb(226, 226, 226);
+    transition: 0.4s;
+}
+
+.texts{
+    display: block;
+    font-size: medium;
+    padding: 0px;
+    background: none;
+    border: none;
+    margin-bottom: 45px;
+    margin-top: 35px;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(25, 168, 216);
+    font-style: normal;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+.texts:hover{
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+.fonts_divs:hover{
+    border: 2px solid rgb(16, 157, 204);
+    transition: 0.2s;
+}
+
+#contact_icon{
+    /* background: linear-gradient(to bottom, rgb(16, 157, 204) , rgb(35, 94, 202) ); */
+    font-size: 24px;
+}
+
+#settings_icon{
+    /* background : linear-gradient(to bottom , rgb(248, 162, 1) , rgb(211, 137, 0)); */
+    font-size: 24px;
+
+}
+
+#conditions_icon{
+    /* background: linear-gradient(to bottom, rgb(95, 95, 95), rgb(163, 163, 163)); */
+    font-size: 26px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+#logout_icon{
+    /* background: linear-gradient(to left , rgb(25, 255, 25), rgb(132, 255, 132) ); */
+    font-size: 24px;
+
+}
+
+
+#side_img_block{
+    
+    width: 100%;
+    justify-content: center; /* Horizontally center the child */
+    margin-bottom: 2.5%;
+
+}
+   
+#home_block_side_img{
+    
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: url('https://images.pexels.com/photos/695954/pexels-photo-695954.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#one_home_side_block{
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    padding: 5%;
+
+
+}

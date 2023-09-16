@@ -1,0 +1,132 @@
+#dashboardUser{
+    display: flex;
+}
+
+#usernavbar{
+    width: 20%;
+    background-color: rgb(27, 25, 25 , 80%);
+    padding-bottom: 65%;
+    border: 2px solid black;
+    color: rgb(156, 151, 151);
+    text-align: center;
+}
+
+#userheaderandsection{
+    width: 80%;
+    text-align: center;
+
+}
+
+#headergreeting{
+    display: inline-block; 
+}
+
+#userheader{
+    padding: 2%;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+
+}
+
+#userimgandname{
+    width: 30%;
+    float: right;
+    margin-top: -1.5%;
+}
+
+#userimgandname img{
+    width: 60px;
+    height: 60px;
+}
+
+#dashes{
+    float: left;
+}
+
+
+#profilesection, #jobsection{
+    border: 2px solid rgb(27, 25, 25 , 1%);
+    background-color: rgb(27, 25, 25 , 5%);
+    border-radius: 10px;
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    font-size: larger;
+}
+
+#profilesection:hover, #jobsection:hover{
+    background-color: rgba(15, 15, 15, 0.5);
+    cursor: pointer;
+}
+
+#profileoptions, #joboptions{
+    margin-left: 10%;
+}
+
+#profile:hover, #jobs:hover, #profileoptions span:hover, #joboptions span:hover{
+    cursor: pointer;
+    color: white;
+}
+
+#logo{
+    width: 120px;
+    height: 150px;
+    margin: 30px;
+}
+
+#instructions{
+    color: black;
+}
+
+.sequence-container {
+    display: flex;
+  }
+  .step {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(250, 253, 255);
+    border: 2px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    margin-left: 0%;
+    margin-right: -5%;
+  }
+  .step.active {
+    background-color: rgb(0, 117, 0);
+    color: white;
+  }
+
+ 
+
+  .aline{
+        width: 40%;
+        background-color:black;
+        height: 3px;
+        margin-top: 65px;
+  }
+
+
+  #h1greets{
+    color: gray;
+
+  }
+  
+  #sequmap{
+    margin-top: 20%;
+  }
+  
+  
+ 
+  
+ 
+  
+  
+  

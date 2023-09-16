@@ -1,0 +1,53 @@
+#one_activity{
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 10px;
+}
+
+.margin{
+    margin: 2%;
+}
+
+#all_options{
+    display: flex;
+}
+
+.request_options{
+    font-style: normal;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 0.5%;
+    font-family: sans-serif;
+    border-right: 1px solid rgb(221, 221, 221);
+    border-bottom: 2px solid rgb(221, 221, 221);
+
+    background-color: white
+}
+
+#allReq{
+    border-bottom: 2px solid black;
+}
+
+#pending{
+color: rgb(221, 163, 15);
+}
+
+#accepted{
+    color: green;
+}
+
+#rejected{
+    color: rgb(184, 0, 0);
+}
+
+#activity_img{
+    background: url('https://images.pexels.com/photos/3772510/pexels-photo-3772510.jpeg?auto=compress&cs=tinysrgb&w=400');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#middle_block{
+    cursor: pointer;
+}

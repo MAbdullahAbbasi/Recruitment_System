@@ -1,0 +1,283 @@
+/* .LoginSignUp{
+  background-image: url('https://images.pexels.com/photos/4344340/pexels-photo-4344340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+section{
+  /* border: 2px solid black; */
+  color: white;
+}
+
+#delabel{
+  text-align: left;
+  margin: 10%;
+}
+#delForm{
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+#alter{
+  /* border: 2px solid black; */
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 30%;
+}
+
+#signupimported,#delimported{
+  display: none;
+}
+
+#number{
+  border: 1px solid white;
+  padding-left: 3%;
+  padding-right: 3%;
+  border-radius: 50%;
+  display: none;
+}
+
+#reasontext,#reason{
+  display: none;
+}
+
+#reasontext{
+  color: green;
+  margin-top: 10%;
+}
+
+#loggedin{
+  display: none;
+}
+
+section div{
+  margin: 5%;
+}
+
+label{
+  font-weight: 550;
+  font-family: serif;
+  cursor: pointer;
+}
+
+#form{
+  /* border: 2px solid black; */
+margin-top: -10%;
+}
+
+input,button{
+  width: 100%;
+  padding: 2%;
+}
+
+input{
+  font-size: medium;
+  margin-top: 0%;
+  border: 1px solid rgb(194, 191, 191);
+  border-radius: 5px;
+  outline: none;
+}
+
+
+button{
+  font-size: larger;
+  margin-top: 5%;
+  background: linear-gradient(rgb(28, 165, 211),rgb(8, 112, 231));
+  border-radius: 5px;
+  border: none;
+  color: #e9f9fb;
+  cursor: pointer;
+  width: 55%;
+}
+
+#btn{
+  text-align: center;
+}
+
+button:hover{
+  background: linear-gradient(rgb(8, 112, 231),rgb(28, 165, 211));
+}
+
+#second{
+  float: right;
+  margin-right: 2%;
+}
+
+label{
+  text-align: center;
+  align-items: center;
+}
+
+.fa-icons{
+  margin-bottom: 5%;
+}
+
+a{
+  text-decoration: none;
+  color: lightblue;
+  margin-left: 5%;
+}
+
+a:hover{
+  color: rgb(118, 172, 190);
+}
+
+.icon{
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+#imgs{
+  text-align: center;
+}
+
+img{
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#login-butt{
+  width: 10%;
+  font-size: 20px;
+  padding: 1%;
+  float: right;
+  margin-top: 0%;
+  margin-left: -15%;
+}
+
+#forgot{
+  border: 2px solid black;
+  width: 40%;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  margin-top: 100px;
+  margin-left: 330px;
+  background-color: rgba(255, 255, 255, 0.96); /* Semi-transparent white background */
+  z-index: 999; /* Higher z-index to display on top of existing elements */
+  display: none;
+}
+
+#cross{
+  float: right;
+  cursor: pointer;
+}
+
+#heading{
+  background: linear-gradient(rgb(8, 112, 231),rgb(28, 165, 211));
+  color: white;
+  border-bottom: 2px solid black;
+  margin: 0%;
+  padding: 2%;
+  font-size: larger;
+  font-weight: bold;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#block{
+  padding: 2%;
+}
+
+#radio{
+  width: 40%;
+  margin: auto;
+}
+
+#user,#admin{
+  display: flex;
+}
+#user{
+  float: left;
+}
+#admin{
+  float: right;
+}
+
+#forgot input{
+  font-size: small;
+  width: 50%;
+  margin-top: 0%;
+  padding: 1%;
+}
+
+.confrim{
+  width: 100%;
+  font-size: small;
+  margin-top: -3%;
+}
+
+.confrim button{
+  width: 20%;
+  padding: 1%;
+}
+
+span{
+  margin-left: 5%;
+}
+
+span .Link{
+  margin-left: 1%;
+}
+
+#isuser, #nouser{
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  
+  section{
+      width: 90%;
+    }
+    #login-butt{
+      margin-right: 5%;
+      padding-right: 13.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  a{
+    font-size: 12px;
+    margin-top: 0%;
+  }
+}
+
+#signin{
+  border: 3px solid rgb(117, 113, 113);
+  width: 35%;
+  background-color: rgb(0, 0, 0, 0.6);
+  padding: 2%;
+  margin: auto;
+  border-radius: 25px;
+  opacity: 0; 
+  transition: 1.5s;
+}
+
+#signin.active {
+  opacity: 1;
+}
+#signin h2{
+  color: rgb(255, 255, 255);
+}
+
+#signin h2{
+  font-family: sans-serif ;
+  padding: 5px;
+  font-weight: 650;
+}
+
+
+#logoimg{
+  margin-top: 2%;
+  margin-left: 5%;
+  height: 100%;
+}
+
+

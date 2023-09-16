@@ -1,0 +1,12 @@
+.create_post{
+    border: 2px solid gray;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+}
+
+.create_post:hover{
+    background-color: rgb(253, 253, 253);
+}
